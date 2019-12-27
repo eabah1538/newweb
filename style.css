@@ -1,0 +1,156 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #efefef;
+	box-sizing: border-box;
+}
+
+a{
+	color:white;
+}
+.navbar{
+	position: sticky !important;
+	top: 0;
+	z-index: 70; 
+	background-color: blue;
+	height: 112px !important;
+}
+
+.navbar-brand img{
+	height: 50px;
+	margin-left: 20px
+
+}
+
+.navbar a{
+	color: white;
+}
+ul{
+	float: right !important;
+
+}
+
+ul a{
+	font-weight: 10px;
+	font-size: 20px;
+	color: white !important;
+	padding: 20px;
+	margin-right: 30px;
+
+
+}
+
+ul a:hover{
+	background-color: darkblue;
+	width: 80%;
+	height: 55px;
+	border-radius: 5px;
+	transition: ease-in, 1s;
+
+}
+
+.carousel-caption{
+
+	text-align: left !important;
+	margin-bottom: 90px;
+
+}
+
+.carousel-caption h5{
+	font-size: 80px;
+}
+
+.carousel-caption p{
+	font-size: 30px;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+.card-1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 400px;
+}
+
+.card-2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 400px;
+}
+
+.card{
+	width: 31.3% !important;
+	margin: 2% ;
+	padding: 2%;
+	
+}
+
+.card-2 .card{
+	width: 31.3% !important;
+	margin: 2%;
+	padding: 2%;
+}
+
+.card-body{
+	margin-top: -100px;
+}
+
+.card-body-2{
+	margin-top: 80px;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 50px grey;
+
+}
+
+.about-container{
+	width: 100%
+	height: 500px;
+	background-color: white
+
+
+}
+
+.about-holder{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.about-body{
+	width: 48%;
+	margin: 2%
+}
+
+.about-body h5{
+	font-size: 60px
+}
+
+.about-body p{
+	font-size: 18px;
+}
+
+.about-only{
+	margin-top: 60px;
+	margin-left: 20px;
+
+}
+
+
+.footer-container{
+	width: 100%;
+	height: 300px;
+background-color: black;
+}
+
+.card-img-top:hover{
+	width: 80%;
+
+}
